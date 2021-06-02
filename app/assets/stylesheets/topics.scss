@@ -1,0 +1,20 @@
+// Place all the styles related to the Topics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+nav{
+    border: 3px dotted blue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.navbox{
+    border: 3px solid black;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+    width:20%;
+    padding: 3px;
+    background-image: linear-gradient(#060066,#00d4ff);
+    align-items: center;
+}
