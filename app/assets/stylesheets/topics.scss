@@ -36,7 +36,7 @@ nav{
     align-items: center;
     justify-content: center;
     border:1px solid rgb(112, 112, 112);
-    width:33%;
+    width:calc(100%/3);
     height: 100%;
 }
 }
@@ -47,10 +47,11 @@ nav{
     display:inherit;
     align-items: center;
     justify-content: space-evenly;
->*{
+>div{
     border: 1px solid rgb(112, 112, 112);
     border-radius: 5px;
     padding:8px;
+    background-color: blueviolet;
 }
 a:hover {
     border-radius: 5px;
@@ -63,5 +64,5 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color:#67ffff;
+    font-size: 120%;
 }
