@@ -1,20 +1,67 @@
 // Place all the styles related to the Topics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-nav{
-    border: 3px dotted blue;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
-.navbox{
-    border: 3px solid black;
-    flex-direction: row;
+
+nav{
+    display:flex;
+    background:silver;
+    align-items:center;
+    width: 100vw;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    height:65px;
+    font-family: Opera, sans-serif;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(112, 112, 112);
     text-align: center;
-    height: 50px;
-    width:20%;
-    padding: 3px;
-    background-image: linear-gradient(#060066,#00d4ff);
+}
+
+.bar {
+    height:65px;
+}
+
+#left {
+    font-size:24px;
+    padding-left: 65px;
+    width: 45vw;
+    display:inherit;
     align-items: center;
+    justify-content: space-evenly;
+>*{
+    display:inherit;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgb(112, 112, 112);
+    width:33%;
+    height: 100%;
+}
+}
+
+#right {
+    width:24vw;
+    font-size: 18px;
+    display:inherit;
+    align-items: center;
+    justify-content: space-evenly;
+>*{
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    padding:8px;
+}
+a:hover {
+    border-radius: 5px;
+    padding:8px;
+}
+}
+
+a:link, a:visited {
+    color: azure;
+}
+
+a:hover, a:active {
+    color:#67ffff;
 }
