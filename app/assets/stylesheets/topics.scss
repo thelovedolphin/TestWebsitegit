@@ -3,38 +3,65 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 body {
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 nav{
     display:flex;
-    background: #c31432; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff68ff, #240b36); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff68ff, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    display:flex;
+    background:silver;
     align-items:center;
     width: 100vw;
-    color:azure;
+    color:rgb(255, 255, 255);
     font-weight:bold;
-    padding: 40px;
+    height:65px;
     font-family: Opera, sans-serif;
-    justify-content: right;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(112, 112, 112);
+    text-align: center;
 }
 
-.left {
+.bar {
+    height:65px;
+}
+
+#left {
     font-size:24px;
+    padding-left: 65px;
+    width: 45vw;
     display:inherit;
     align-items: center;
-    border: 1px solid black;
+    justify-content: space-evenly;
 >*{
-    border:1px solid blue;
+    display:inherit;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgb(112, 112, 112);
+    width:33%;
+    height: 100%;
 }
 }
 
-.right {
+#right {
+    width:24vw;
     font-size: 18px;
     display:inherit;
     align-items: center;
-    border: 1px solid black;
+    justify-content: space-evenly;
 >*{
-    border: 1px solid blue;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    padding:8px;
 }
+a:hover {
+    border-radius: 5px;
+    padding:8px;
+}
+}
+
+a:link, a:visited {
+    color: azure;
+}
+
+a:hover, a:active {
+    color:#67ffff;
 }
