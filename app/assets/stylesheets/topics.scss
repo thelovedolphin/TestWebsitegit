@@ -51,11 +51,9 @@ nav{
     border: 1px solid rgb(112, 112, 112);
     border-radius: 5px;
     padding:8px;
+    height:auto;
+    width: 75px;
     background-color: blueviolet;
-}
-a:hover {
-    border-radius: 5px;
-    padding:8px;
 }
 }
 
@@ -64,5 +62,8 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    font-size: 120%;
+    border-radius: 5px;
+    font-size: 90%;
+    height:90%;
+    width:90%;
 }
